@@ -53,3 +53,5 @@ let newFabulousCar = JSON.parse(JSON.stringify(otherfabulousCar));
 console.log(otherfabulousCar, newFabulousCar);
 newFabulousCar.owner.name = 'Gabriel';
 console.log(otherfabulousCar, newFabulousCar);
+
+
